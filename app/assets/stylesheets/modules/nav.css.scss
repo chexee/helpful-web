@@ -11,6 +11,26 @@
 
     > a {
       display: block;
+      &.btn {
+        padding: 0 12px;
+      }
+    }
+  }
+}
+
+.nav-light {
+  > li {
+    padding-left: 20px;
+
+    > a {
+      font-size: 0.65em;
+      padding-right: 0;
+      padding-left: 0;
+
+      &:hover {
+        background: none;
+      }
+
     }
   }
 }

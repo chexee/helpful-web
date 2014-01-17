@@ -86,7 +86,18 @@ a {
   &:focus {
     text-decoration: none;
   }
+
+  &.link-subtle {
+    color: $muted;
+    border: 0;
+
+    &:hover {
+      color: $primary;
+    }
+  }
+
 }
+
 
 h1 + p {
   font-size: 1.55em;
@@ -103,4 +114,8 @@ hr {
 
 .text-smaller {
   font-size: .85em;
+}
+
+.text-uppercase {
+  text-transform: uppercase;
 }

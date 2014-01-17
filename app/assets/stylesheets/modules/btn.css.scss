@@ -42,6 +42,18 @@
   }
 }
 
+.btn-subtle,
+.btn-primary[disabled] {
+  color: $black;
+  background-color: $pale-gray;
+  box-shadow: none;
+
+  &:not([disabled]):hover {
+    background-color: darken($primary, 5%);
+  }
+}
+
+
 .btn-success,
 .btn-success[disabled] {
   background-color: $success;
