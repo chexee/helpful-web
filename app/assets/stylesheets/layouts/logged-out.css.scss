@@ -1,0 +1,25 @@
+.l-logged-out {
+
+  header {
+    border-bottom: 1px lighten($muted, 50%) solid;
+    padding: 20px 0;
+
+    .logo-wordmark {
+      display: block;
+      @include pull-left;
+      height: 33px;
+      padding-left: 45px;
+      background-size: 33px 33px;
+
+      font-size: 20px;
+      line-height: 34px;
+      letter-spacing: 1px;
+    }
+
+    nav {
+      @include pull-right;
+    }
+
+  }
+
+}

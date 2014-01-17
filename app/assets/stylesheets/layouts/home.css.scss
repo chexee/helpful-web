@@ -1,0 +1,28 @@
+.l-home {
+
+  .hero {
+    background-image: url('/assets/background-waves.png');
+    background-repeat: repeat-x;
+    background-position: bottom;
+    padding: 50px 0 0 0;
+    h1 {
+      font-family: $font-body;
+      font-size: 2.2em;
+      text-transform: none;
+      font-weight: 100;
+    }
+
+    p {
+      margin: auto;
+      font-size: 1em;
+
+      &:last-child {
+        margin-top: 50px;
+      }
+
+      .demo {
+        margin-bottom: -30px;
+      }
+    }
+  }
+}
